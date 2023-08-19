@@ -1,0 +1,76 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+.title {
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 1px 7px 3px black;
+    padding: 50px;
+    background-image: url(images/skyline.jpg);
+    background-size: cover;
+    font-family: 'Rock Salt', cursive;
+}
+
+#subtext {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+}
+.banner {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+body {
+    margin: 35px;
+    background-image: linear-gradient(#f0544f,#3a3335);
+    color: #c6d8d3;
+    text-shadow: 1px 0px 4px #D81E5B;
+    font-family: 'Quicksand', sans-serif;
+}
+
+img {
+    width: 250px;
+    border-radius: 100%;
+}
+#listof5 {
+    display: flex;
+    Flex-wrap: wrap;  
+}
+li {
+    flex: 1 1 40%;
+    margin: 5%;
+}
+#beach {
+    width: 110%;
+    border-radius: 3%;
+}
+
+.mj-bio {
+    Padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#avatar {
+    width: 75%;
+    border-radius: 49%;
+}
+img:hover {
+    background-color: #3a3335;
+
+}
